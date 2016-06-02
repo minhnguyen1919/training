@@ -3,7 +3,7 @@ var $ = require('jquery');
 // css-loader convert bear.css into javascript code
 // style-loader apply javascript code to page
 
-var css = require('style!css!./bear.css');
+var css = require('./bear.css');
 
 console.log(css);
 

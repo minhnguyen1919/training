@@ -4,6 +4,5 @@ require(['./src/bear/bear'], function (bear) {
   document.body.appendChild(bear[0]);
 });
 
-var list = [ 1, 2, 3 ];
-var [ a, , b ] = list;
-console.log(a);
+// require('./src/es6/let')();
+require('./src/es6/constant')();

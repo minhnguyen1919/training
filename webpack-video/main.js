@@ -6,4 +6,4 @@ require(['./src/bear/bear'], function (bear) {
 
 var list = [ 1, 2, 3 ];
 var [ a, , b ] = list;
-console.log(a, b);
+console.log(a);

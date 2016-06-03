@@ -1,3 +1,5 @@
+var LiveReloadPlugin = require('webpack-livereload-plugin');
+
 module.exports = {
   entry: './main.js',
   output: {
@@ -20,6 +22,9 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new LiveReloadPlugin()
+  ],
   devServer: {
     inline:true,
     port: 9002

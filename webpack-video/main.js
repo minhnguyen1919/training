@@ -12,4 +12,8 @@ require(['./src/bear/bear'], function (bear) {
 // require('./src/es6/chapter1-syntax/object-literal')();
 // require('./src/es6/chapter1-syntax/template-literal')();
 // require('./src/es6/chapter1-syntax/arrow-function')();
-require('./src/es6/chapter1-syntax/for-of')();
+// require('./src/es6/chapter1-syntax/for-of')();
+
+// require('./src/es6/chapter2-iterator/test1')();
+// require('./src/es6/chapter2-iterator/test2')();
+require('./src/es6/chapter2-iterator/test3')();

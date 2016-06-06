@@ -39,5 +39,10 @@ module.exports = function test() {
 
   //----------------------------------------------------------------------------
 
+  var numbers = ['a', 'b'];
+  var iter1 = numbers.entries();              // ArrayIterator {}
+  // is equivalent to
+  var iter2 = numbers[Symbol.iterator]();     // ArrayIterator {}
+
   //----------------------------------------------------------------------------
 }

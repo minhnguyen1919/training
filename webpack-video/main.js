@@ -16,4 +16,5 @@ require(['./src/bear/bear'], function (bear) {
 
 // require('./src/es6/chapter2-iterator/test1')();
 // require('./src/es6/chapter2-iterator/test2')();
-require('./src/es6/chapter2-iterator/test3')();
+// require('./src/es6/chapter2-iterator/test3')();
+require('./src/es6/chapter2-iterator/test4')();

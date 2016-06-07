@@ -2,7 +2,7 @@
 
 module.exports = function test () {
 
-  // ------Two way com­mu­ni­ca­tion using yield and next---------------------------
+  // -----------------------yield other gen­er­a­tors------------------------------
 
   function* generatorFoo () {
     yield 1;
